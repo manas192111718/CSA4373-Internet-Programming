@@ -1,0 +1,30 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Panel</title>
+    <script>
+        function showAlert() {
+            
+            window.location.href = "page4.html"; 
+        }
+    </script>
+</head>
+<body style="background-color:ORANGE">
+    <h1><center>ADMIN PANEL</center></h1><br><br>
+<center>
+    <form action="/admin/add_road" method="post">
+            <h2>Add/Update vechical Details</h2>
+            vechical Name: <input type="text" name="vechicalName" required><br><br>
+            Origin location: <input type="text" name="originlocation" required><br><br>
+           exact location: <input type="text" name=" exactlocation" required><br><br>
+            Date of compalint: <input type="date" name="compalintDate" required><br><br>
+
+    </form>
+<center>
+   <form>
+        <button type="button" onclick="showAlert()">submit</button>
+    </form>
+</body>
+</html>
