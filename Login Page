@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <div align="center">
+    <form action="connect.php" method="post"
+    <h5>signup</h5>
+    <p>login into your account</p>
+    <label for="">username</label><br>
+    <input type="text" name="username"><br>
+    <label for="">password</label><br>
+    <input type="password" name="password"><br>
+    <input type="submit" name="signup" value="signup"><br>
+</form>
+    </div>
+</body>
+</html>
